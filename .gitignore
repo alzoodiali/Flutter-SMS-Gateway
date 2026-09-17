@@ -1,0 +1,56 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+Thumbs.db
+
+# Environment & Secrets (ضروري جداً للأمان)
+.env
+.env.*
+*.keystore
+*.jks
+
+# IntelliJ & IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Android specifics (مهم لمنع رفع مسارات ومفاتيح أندرويد المحلية)
+android/.gradle/
+android/local.properties
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS specifics (حزم CocoaPods وملفات البناء المؤقتة)
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
