@@ -97,7 +97,7 @@
 ## 📁 Project Structure
 
 ```
-sms_gateway_app/
+Flutter-SMS-Gateway/
 ├── lib/
 │   ├── main.dart                              # App entry point + routing
 │   ├── core/
@@ -154,8 +154,8 @@ sms_gateway_app/
 
 ```bash
 # Clone the repository
-git clone https://github.com/alzoodiali/sms_gateway_app.git
-cd sms_gateway_app
+git clone https://github.com/alzoodiali/Flutter-SMS-Gateway.git
+cd Flutter-SMS-Gateway
 
 # Install dependencies
 flutter pub get
